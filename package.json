@@ -2,14 +2,15 @@
   "name": "readllinepromise",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "appYargs.js",
   "scripts": {
-    "start": "node app",
+    "start": "node appYargs.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abe",
   "license": "ISC",
   "dependencies": {
-    "validator": "^13.11.0"
+    "validator": "^13.11.0",
+    "yargs": "^17.7.2"
   }
 }
